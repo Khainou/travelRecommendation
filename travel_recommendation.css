@@ -10,8 +10,8 @@ body, html {
   background: linear-gradient(to right, rgb(39, 46, 143), rgb(20, 0, 100));
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
-
 
 .left-menu{
   display: flex;
@@ -78,6 +78,7 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
+  width: 100%;
 }
 
 .line {
@@ -122,7 +123,7 @@ body, html {
 .intro button {
   background-color: rgb(20, 0, 100);
   color: white;
-  border-radius: 5px;
+  border-radius: 20px;
   font-weight: bolder;
   padding: 15px 35px;
   border: none;
@@ -132,4 +133,138 @@ body, html {
 .intro button:hover{
   cursor: pointer;
 }
+#content {
+  display: block;
+  margin-right: 100px;
+  margin-left: 100px;
 
+}
+
+#content h2 {
+  font-size: 70px;
+}
+
+#content p {
+  background-color: rgba(41, 47, 46, 0.733);
+  padding: 20px;
+  font-size: 25px;
+  border-radius: 20px;
+}
+
+#team {
+  display: flex;
+  margin: 20px 100px;
+}
+
+
+.card {
+  background-color: rgba(41, 47, 46, 0.733);
+  margin: 20px; 
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.card i {
+  font-size: 40px;
+}
+
+.card button {
+  background-color: rgb(20, 0, 100);
+  color: white;
+  border-radius: 5px;
+  font-weight: bolder;
+  padding: 15px 35px;
+  border: none;
+  font-size: 20px;
+}
+  
+.card button:hover{
+    cursor: pointer;
+}
+
+
+#contactForm {
+  width: 900px;
+  height: 350px;
+  background-color: rgba(41, 47, 46, 0.733);
+  margin: 200px 50px;
+  padding: 20px;
+  color: white;
+  border-radius: 20px;
+}
+
+#contactForm input {
+  width: 900px;
+  height: 30px;
+  background-color:rgba(0, 0, 0, 0);
+  border: 1px solid rgb(233, 229, 229);
+  border-radius: 20px;
+  color: white;
+}
+
+#contactForm button {
+  width: 100%;
+  background-color: rgb(20, 0, 100);
+  color: white;
+  border-radius: 10px;
+  padding: 10px 30px;
+  border: none;
+  font-size: x-large;
+  margin: 10px 10px 0px 0px;
+}
+
+#contactForm button:hover {
+  cursor: pointer;
+}
+
+#contactForm textarea {
+  width: 100%;
+  height: 150px;
+  background-color:rgba(0, 0, 0, 0);
+  border: 1px solid rgb(233, 229, 229);
+  border-radius: 20px;
+  color: white;
+}
+
+.result {
+  width: 600px;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+.subResult {
+  margin-bottom: 30px;
+  background-color: rgba(41, 47, 46, 0.733);
+  border-radius: 10px;
+}
+
+.subResult img{
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.subResult h3 {
+  margin-left: 20px;
+}
+
+.subResult p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.subResult button {
+  background-color: rgb(20, 0, 100);
+  color: white;
+  border-radius: 20px;
+  font-weight: bolder;
+  padding: 15px 35px;
+  border: none;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+  
+.subResult button:hover{
+    cursor: pointer;
+}

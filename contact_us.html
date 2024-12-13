@@ -8,7 +8,7 @@
 </head>
 <body onload="printHome()">
     <div class="menubar" id="menubar">
-    <div class="left-menu">
+      <div class="left-menu">
         <i class="fa fa-regular fa-plane-arrival"></i>
         <h1>TravelBloom</h1>
     </div>
@@ -17,22 +17,28 @@
         <a href="./about_us.html">About Us</a>
         <a href="contact_us.html">Contact Us</a>
     </div>
-    <div class="right-menu">
-        <input type="search" id="searchInput" placeholder="Enter a destination or a keyword">
-        <button id="btnSearch" >Search</button>
-        <button id="btnClear" >Clear</button>
     </div>
-</div>
-
     <div class="home">
         <div id="social-logo"></div>
-        <div class="intro">
-            <h2>EXPLORE DREAM DESTINATIONS</h2>
-            <p> It encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes, while pursuing the desired destination that captivates the heart and ignites a sense of wonder.</p>
-            <button>BOOK NOW</button>
+        <div id="content">
+            <h2>CONTACT US</h2>
+            <p> Get in touch </p> 
         </div>
-        <div class="result" id="result">
-        </div>
+          <form id="contactForm">
+            <div>
+              <label for="name">Nom</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" onclick="thankyou()">Soumettre</button>
+          </form>
     </div>
     <script src="travel_recommendation.js"></script>
 </body>
